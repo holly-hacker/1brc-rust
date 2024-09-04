@@ -4,7 +4,7 @@ use std::io::{BufWriter, Write};
 
 mod stations;
 
-const RECORD_COUNT: usize = 1_000_000_000;
+const RECORD_COUNT: usize = 100_000_000;
 const PROGRESS_INTERVAL: usize = 10_000_000;
 const MAX_DEV: f64 = 10.;
 

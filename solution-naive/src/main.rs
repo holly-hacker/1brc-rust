@@ -21,8 +21,8 @@ fn main() {
         let data = hash_map.entry(left.to_string()).or_insert(SomeData {
             min: num,
             max: num,
-            sum: num,
-            count: 1,
+            sum: 0.,
+            count: 0,
         });
 
         data.min = data.min.min(num);
